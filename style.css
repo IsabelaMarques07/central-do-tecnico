@@ -74,8 +74,7 @@ header {
   }
 
   .header-bg {
-    position: relative;
-    background-image: url('/images/header_bg.png'); /* Substitua pelo caminho da sua imagem */
+    position: relative;/* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
