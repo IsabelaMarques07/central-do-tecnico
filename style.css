@@ -460,14 +460,40 @@ header {
 }
 
 /* INVESTIMENTO */
+
+#investimento{
+    margin-top: 60px;
+}
+#investimento h2 {
+    font-weight: bold;
+}
 #investimento .card {
-    background-color: var(--highlight-color);
+    background-color: rgba(81, 51, 180, 0.26);
     color: var(--primary-color);
+    border: none; /* Remover borda */
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(129, 110, 189, 0.4), 
+                0 0 15px rgba(129, 110, 189, 0.4), 
+                0 0 20px rgba(129, 110, 189, 0.4), 
+                0 0 40px rgba(129, 110, 189, 0.4);
+}
+.card-header{
+    border-radius: 0;
 }
 
 #investimento .card-header {
     background-color: var(--primary-color);
     color: var(--highlight-color);
+}
+
+#investimento .card-body .display-4 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+#investimento .card-body small {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
 }
 
 /* DEPOIMENTOS */
