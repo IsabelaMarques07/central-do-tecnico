@@ -69,3 +69,21 @@ const images = [
         });
     });
 });
+    document.addEventListener('DOMContentLoaded', function () {
+        var carouselElement = document.getElementById('carouselExample');
+        var carousel = new bootstrap.Carousel(carouselElement, {
+            interval: 3000, // Tempo em milissegundos entre slides
+            wrap: true, // Permite que o carousel volte ao primeiro slide após o último
+            pause: 'hover', // Pausa o carousel quando o mouse está sobre ele
+            ride: 'carousel' // Inicia o carousel automaticamente
+        });
+
+        // Adiciona eventos de controle manual
+        document.querySelector('.carousel-control-prev-reviews').addEventListener('click', function () {
+            carousel.prev();
+        });
+
+        document.querySelector('.carousel-control-next-reviews').addEventListener('click', function () {
+            carousel.next();
+        });
+    });
