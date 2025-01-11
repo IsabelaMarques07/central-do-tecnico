@@ -805,3 +805,21 @@ footer a{
     border: none;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+#oportunidade .whatsapp-button {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 769px) {
+    .feature-row {
+        margin-bottom: 30px; /* Ajuste a margem inferior conforme necessário */
+    }
+}
+
+@media (max-width: 769px) {
+    .feature-row div{
+        margin-bottom: 30px; /* Ajuste a margem inferior conforme necessário */
+    }
+}
