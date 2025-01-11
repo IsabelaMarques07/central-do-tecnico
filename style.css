@@ -29,6 +29,10 @@ header {
     color: var(--primary-color);
 }
 
+.logo-header {
+    width: 100px;
+}
+
 .header-bg {
     position: relative;
     background-image: url('images/header_bg.png');
