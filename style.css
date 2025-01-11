@@ -822,3 +822,9 @@ footer a{
         margin-bottom: 30px; /* Ajuste a margem inferior conforme necessário */
     }
 }
+
+#investimento .section-title {
+    color: var(--secondary-color);
+    font-weight: bold;
+    text-align: left;
+}
