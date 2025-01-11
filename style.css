@@ -845,3 +845,19 @@ footer a{
     font-weight: bold;
     text-align: left;
 }
+
+.info-paragraph {
+    font-size: 0.9rem; /* Fonte um pouco menor */
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.info-paragraph i {
+    color: var(--primary-color); /* Cor primária para o ícone */
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
+
+.destaque-metro{
+    font-weight: 600;
+    color: var(--primary-color);
+}
