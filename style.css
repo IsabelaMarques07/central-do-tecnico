@@ -562,6 +562,10 @@ header {
     font-size: 4rem;
 }
 
+.price-integer-p {
+    font-size: 3.2rem;
+}
+
 .price-decimal {
     font-size: 0.5em;
     vertical-align: super; /* Alinha os centavos ao topo */
@@ -570,6 +574,7 @@ header {
 .parcela{
     color: #f895249a;
     font-size: 1.5em;
+    white-space: nowrap;
 }
 
 /* DEPOIMENTOS */
