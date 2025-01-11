@@ -8,6 +8,7 @@
     --overlay-color: rgba(0, 0, 0, 0.9);
     --gradient-color: rgba(90, 58, 197, 0.4);
     --gradient-color-light: rgba(90, 58, 197, 0.2);
+    --whatsapp-color: #25d366;
 }
 
 /* BODY */
@@ -710,7 +711,7 @@ header {
 }
 
 #call-to-action a{
-    background-color: rgb(13, 191, 67);
+    background-color: var(--whatsapp-color);
 }
 
 /* FOOTER */
@@ -785,7 +786,7 @@ footer a{
     height: 60px;
     bottom: 40px;
     right: 40px;
-    background-color: #25d366;
+    background-color: var(--whatsapp-color);
     color: #FFF;
     border-radius: 50px;
     text-align: center;
@@ -796,4 +797,11 @@ footer a{
 
 .float-whatsapp i {
     margin-top: 16px;
+}
+
+.whatsapp-button{
+    background-color: var(--whatsapp-color);
+    color: #141414;
+    border: none;
+    font-weight: 600;
 }
